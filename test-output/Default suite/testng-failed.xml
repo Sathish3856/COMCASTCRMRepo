@@ -3,11 +3,18 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="practice.program.DataProviderMethodTest">
+      <class name="com.comcast.crm.orgtest.CreateOrganizationPage">
         <methods>
-          <include name="getElement" invocation-numbers="1 2"/>
+          <include name="orgWithIndustryTest"/>
+          <include name="orgWithPhone"/>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configAs"/>
+          <include name="configAc"/>
+          <include name="configBm"/>
+          <include name="configAm"/>
         </methods>
-      </class> <!-- practice.program.DataProviderMethodTest -->
+      </class> <!-- com.comcast.crm.orgtest.CreateOrganizationPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

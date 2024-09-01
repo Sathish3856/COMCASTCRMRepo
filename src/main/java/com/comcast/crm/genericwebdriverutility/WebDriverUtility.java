@@ -13,6 +13,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class WebDriverUtility 
 {
+	
 	public void waitForPageLoad(WebDriver driver,int time)
 	{
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(time));
@@ -35,7 +36,7 @@ public class WebDriverUtility
 			driver.switchTo().window(windowId);
 			
 			String actTitle = driver.getTitle();
-			if(partialTitle.contains(partialTitle))
+			if(actTitle.contains(partialTitle))
 			{
 				break;
 			}

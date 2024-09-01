@@ -1,4 +1,4 @@
-package com.comcast.crm.genericwebdriverutility;
+ package com.comcast.crm.genericwebdriverutility;
 
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -10,7 +10,7 @@ public class JavaUtility
 	public int getRandomNumber()
 	{
 		Random random = new Random();
-		int randomNumber = random.nextInt(1000);
+		int randomNumber = random.nextInt(10000);
 		return randomNumber;
 		
 	}
@@ -39,9 +39,5 @@ public class JavaUtility
 		
 	}
 	
-	
-	
-	
-	
-
+   
 }

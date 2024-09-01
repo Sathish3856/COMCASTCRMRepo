@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Test-1(failed)">
+    <classes>
+      <class name="com.comcast.crm.contacttest.CreateContactTest">
+        <methods>
+          <include name="contactTest"/>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configAs"/>
+          <include name="configAc"/>
+          <include name="configBm"/>
+          <include name="configAm"/>
+        </methods>
+      </class> <!-- com.comcast.crm.contacttest.CreateContactTest -->
+    </classes>
+  </test> <!-- Test-1(failed) -->
+  <test thread-count="2" parallel="tests" name="Test-2(failed)">
+    <classes>
+      <class name="com.comcast.crm.orgtest.CreateOrganizationPage">
+        <methods>
+          <include name="orgWithIndustryTest"/>
+          <include name="orgWithPhone"/>
+          <include name="configBs"/>
+          <include name="configBc"/>
+          <include name="configAs"/>
+          <include name="configAc"/>
+          <include name="configBm"/>
+          <include name="configAm"/>
+        </methods>
+      </class> <!-- com.comcast.crm.orgtest.CreateOrganizationPage -->
+    </classes>
+  </test> <!-- Test-2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

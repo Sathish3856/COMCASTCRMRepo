@@ -9,7 +9,7 @@ import org.openqa.selenium.support.PageFactory;
 public class HomePage 
 {
 	private WebDriver driver;
-	@FindBy(xpath="(//a[text()='Organizations'])[1]")
+	@FindBy(xpath="(//a[.='Organizations'])[1]")
 	private WebElement orgLink;
 	@FindBy(linkText="Contacts")
 	private WebElement contactLink;
